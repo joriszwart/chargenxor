@@ -34,7 +34,7 @@ copyfont        lda $d000,x
                 eor customfont,x
                 sta $2100,x
                 inx
-                bne copyfony
+                bne copyfont
 
                 lda #$37                ; default banks (basic / kernal / IO)
                 sta $01
